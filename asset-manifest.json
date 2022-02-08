@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/paprika-yaml/static/css/main.502a963e.css",
-    "main.js": "/paprika-yaml/static/js/main.13a93fd4.js",
+    "main.css": "/paprika-yaml/static/css/main.e121e6dc.css",
+    "main.js": "/paprika-yaml/static/js/main.21211aa0.js",
     "static/js/787.897c640a.chunk.js": "/paprika-yaml/static/js/787.897c640a.chunk.js",
     "index.html": "/paprika-yaml/index.html",
-    "main.502a963e.css.map": "/paprika-yaml/static/css/main.502a963e.css.map",
-    "main.13a93fd4.js.map": "/paprika-yaml/static/js/main.13a93fd4.js.map",
+    "main.e121e6dc.css.map": "/paprika-yaml/static/css/main.e121e6dc.css.map",
+    "main.21211aa0.js.map": "/paprika-yaml/static/js/main.21211aa0.js.map",
     "787.897c640a.chunk.js.map": "/paprika-yaml/static/js/787.897c640a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.502a963e.css",
-    "static/js/main.13a93fd4.js"
+    "static/css/main.e121e6dc.css",
+    "static/js/main.21211aa0.js"
   ]
 }
