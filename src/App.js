@@ -1,4 +1,5 @@
 import InputForm from "./components/InputForm";
+import * as Sentry from "@sentry/react";
 
 let formData = [
   {

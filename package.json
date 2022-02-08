@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://quartzic.github.io/paprika-yaml",
   "dependencies": {
+    "@sentry/react": "^6.17.5",
+    "@sentry/tracing": "^6.17.5",
     "@tailwindcss/forms": "^0.4.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",

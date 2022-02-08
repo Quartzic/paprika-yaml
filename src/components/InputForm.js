@@ -3,10 +3,11 @@ import InputSection from "./InputSection";
 import Divider from "./Divider";
 import YAML from "yaml";
 import sanitize from "sanitize-filename";
+import * as Sentry from "@sentry/react";
 class InputForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { name: "", fileDownloadUrl: "" };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -14,6 +15,7 @@ class InputForm extends React.Component {
 
   handleChange(event) {
     this.setState({ [event.target.id]: event.target.value });
+    Sentry.setContext({name: this.state.name});
   }
 
   handleSubmit(event) {
