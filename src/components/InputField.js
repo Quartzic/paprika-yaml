@@ -10,9 +10,6 @@ class InputField extends React.Component {
         >
           {this.props.name}
         </label>
-        <p class="text-gray-500 text-xs">
-            {this.props.hint}
-        </p>
         <div className="mt-1">
           {this.props.type === "textarea" ? (
             <textarea
@@ -28,6 +25,7 @@ class InputField extends React.Component {
               id={this.props.id}
               name={this.props.id}
               type={this.props.type}
+              alt={this.props.hint}
               onChange={this.props.handleChange}
               className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
               placeholder={this.props.placeholder}

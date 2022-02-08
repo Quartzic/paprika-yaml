@@ -96,10 +96,9 @@ function App() {
     <>
       <div className="m-6 md:m-24">
         <div className="my-16">
-          <h1 className="text-3xl font-bold">📝 Recipe to YAML</h1>
+          <h1 className="text-3xl font-bold">🌶 Paprika YAML Generator</h1>
           <p className="my-2">
-            This tool allows you to quickly create a YAML file to import into
-            Paprika.
+            This tool allows you to quickly create a YAML file to import into Paprika. <br className="hidden sm:block"/> It's primarily designed to let people who don't use Paprika contribute recipes to a collection.
           </p>
         </div>
        <InputForm formData={formData} />
